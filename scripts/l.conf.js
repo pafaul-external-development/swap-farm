@@ -62,5 +62,28 @@ module.exports = {
                 amount: 20,
             }
         },
+        mainnet: {
+            ton_client: {
+                network: {
+                    server_address: 'main.ton.dev',
+                    endpoints: ['main2.ton.dev', 'main3.ton.dev', 'main4.ton.dev']
+                },
+
+                abi: {
+                    message_expiration_timeout: 120000
+                }
+            },
+
+            giver: {
+                address: '0:c1964fd5806e48c6d03f02737c0865e3d95cfca2e6761f0a9113f7058c53a64c',
+                abi: { "ABI version": 2, "header": ["pubkey", "time", "expire"], "functions": [{ "name": "constructor", "inputs": [], "outputs": [] }, { "name": "sendGrams", "inputs": [ { "name": "dest", "type": "address" }, { "name": "amount", "type": "uint64" } ], "outputs": [] } ], "data": [], "events": [] },
+                key: ''
+            },
+
+            keys: {
+                phrase: 'engage egg cause net shadow resist owner maple almost describe wing issue',
+                amount: 20
+            }
+        }
     },
 };

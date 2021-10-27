@@ -1,0 +1,9 @@
+{
+	"name": "UserAccount",
+	"address": "0:1e44b6f57e9e81f27d1d3b7b3f0bcff52efbdf82139617e5d30e0d440cc440b5",
+	"keyPair": {
+		"public": "95f609a5826cefb2cafd0f7e7f08ee02557134fab2e5d91bf944f29ab1858005",
+		"secret": "d26993ce291077924a73f06a207115dddba51ba739c56aeb9ef466110e7bd1e3"
+	},
+	"network": "mainnet"
+}
